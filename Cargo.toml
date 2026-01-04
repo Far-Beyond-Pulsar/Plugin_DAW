@@ -11,12 +11,12 @@ name = "daw_editor_plugin"
 claxon = "0.4"
 rfd = "0.13"
 # Plugin API
-plugin_editor_api = { git = "https://github.com/Far-Beyond-Pulsar/Pulsar-Native", rev = "73e49370b650b9ff645f1bf0a074400236c2d46c" }
+plugin_editor_api = { git = "https://github.com/Far-Beyond-Pulsar/Pulsar-Native", rev = "b4c5800238177bd9eb1ad8b110e37ea9d3b338f2" }
 
 # UI dependencies
 gpui = { git = "https://github.com/tristanpoland/zed", rev="2047043a00dc138e3d8127c8921c96927acea8f8", features = ["runtime_shaders", "macos-blade"] }
-ui = { git = "https://github.com/Far-Beyond-Pulsar/Pulsar-Native", rev = "73e49370b650b9ff645f1bf0a074400236c2d46c" }
-ui_common = { git = "https://github.com/Far-Beyond-Pulsar/Pulsar-Native", rev = "73e49370b650b9ff645f1bf0a074400236c2d46c" }
+ui = { git = "https://github.com/Far-Beyond-Pulsar/Pulsar-Native", rev = "b4c5800238177bd9eb1ad8b110e37ea9d3b338f2" }
+ui_common = { git = "https://github.com/Far-Beyond-Pulsar/Pulsar-Native", rev = "b4c5800238177bd9eb1ad8b110e37ea9d3b338f2" }
 
 # Utilities
 uuid = { version = "1.11", features = ["v4", "serde"] }
