@@ -8,6 +8,8 @@ crate-type = ["cdylib", "rlib"]
 name = "daw_editor_plugin"
 
 [dependencies]
+claxon = "0.4"
+rfd = "0.13"
 # Plugin API
 plugin_editor_api = { git = "https://github.com/Far-Beyond-Pulsar/Pulsar-Native", rev = "73e49370b650b9ff645f1bf0a074400236c2d46c" }
 
@@ -39,3 +41,12 @@ cpal = "0.15"
 rubato = "0.15"
 fundsp = "0.18"
 wgpu = "0.20"
+smol = "1"
+hound = "3.5"
+lewton = "0.10"
+flume = "0.11"
+bytemuck = { version = "1.14", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
+symphonia = { version = "0.5", features = ["mp3", "wav", "flac", "vorbis"] }
+crossbeam = "0.8"
+dashmap = "6.1"
