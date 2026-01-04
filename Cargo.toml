@@ -1,6 +1,6 @@
 [package]
 name = "daw_editor_plugin"
-version = "0.1.3"
+version = "0.1.2"
 edition = "2021"
 
 [lib]
@@ -11,12 +11,12 @@ name = "daw_editor_plugin"
 claxon = "0.4"
 rfd = "0.13"
 # Plugin API
-plugin_editor_api = { git = "https://github.com/Far-Beyond-Pulsar/Pulsar-Native", rev = "35e16c0258e751a74875d458abcb3b8ffb3cf45e" }
+plugin_editor_api = { git = "https://github.com/Far-Beyond-Pulsar/Pulsar-Native", rev = "73e49370b650b9ff645f1bf0a074400236c2d46c" }
 
 # UI dependencies
 gpui = { git = "https://github.com/tristanpoland/zed", rev="2047043a00dc138e3d8127c8921c96927acea8f8", features = ["runtime_shaders", "macos-blade"] }
-ui = { git = "https://github.com/Far-Beyond-Pulsar/Pulsar-Native", rev = "35e16c0258e751a74875d458abcb3b8ffb3cf45e" }
-ui_common = { git = "https://github.com/Far-Beyond-Pulsar/Pulsar-Native", rev = "35e16c0258e751a74875d458abcb3b8ffb3cf45e" }
+ui = { git = "https://github.com/Far-Beyond-Pulsar/Pulsar-Native", rev = "73e49370b650b9ff645f1bf0a074400236c2d46c" }
+ui_common = { git = "https://github.com/Far-Beyond-Pulsar/Pulsar-Native", rev = "73e49370b650b9ff645f1bf0a074400236c2d46c" }
 
 # Utilities
 uuid = { version = "1.11", features = ["v4", "serde"] }
